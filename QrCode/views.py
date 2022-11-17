@@ -16,4 +16,4 @@ def qr_generator(request):
         img = qrcode.make(data)
         img.save("./QrCode/static/qr.png", "PNG")
         context = {"data": data, "image_url" : "qr.png"}
-        return render(request, "qrcode.html", context=context)
+        return render(request, "qrcode_show.html", context=context)
