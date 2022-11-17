@@ -10,3 +10,5 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
+
+> In Qrcode page the data format you should post is like {"data" : "Your data"}
