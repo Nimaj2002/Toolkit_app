@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("main_page.urls")),
     path("QrCode/", include("QrCode.urls")),
+    path("ToDo/", include("ToDo.urls")),
 ]

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "main_page",
     "QrCode",
+    "ToDo",
 ]
 
 MIDDLEWARE = [
